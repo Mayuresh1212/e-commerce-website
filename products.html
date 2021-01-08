@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Accounts</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="images/cart.png" width="30px" height="30px" alt="">
+            </a>
+            <a href="#"><i class=" fa-2x fa fa-bars" onclick="menutoggle()"></i></a>
+        </div>
+        <!----------------------------navbar ends------------->
+    </div>
+    <!---------------------------features starts------------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default sorting </option>
+                <option>Price Low To High</option>
+                <option>Price High To Low</option>
+                <option>Popularity</option>
+                <option>Customer Ratings</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="products-details.html">
+                    <img src="images/sz3.jpg" alt="">
+                </a>
+                <a href="products-details.html">
+                    <h4>Wrogn Collection</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/1.jpg" alt="">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.12999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/3.jpg" alt="">
+                <h4>Allen Solly Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.7999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/4.jpg" alt="">
+                <h4>H&M</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/5.jpg" alt="">
+                <h4>Cavaliers Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/8l.jpg" alt="">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.12999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/9.jpg" alt="">
+                <h4>Allen Solly Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.7999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/11.jpg" alt="">
+                <h4>H&M</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/13.jpg" alt="">
+                <h4>Cavaliers Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/10.jpg" alt="">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.12999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/14.jpg" alt="">
+                <h4>Allen Solly Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.7999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/12.jpg" alt="">
+                <h4>H&M</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/k1.jpg" alt="">
+                <h4>Cavaliers Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/k2.jpg" alt="">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.12999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/k3.jpg" alt="">
+                <h4>Allen Solly Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.7999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/k4.jpg" alt="">
+                <h4>H&M</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/wt.png" alt="">
+                <h4>Cavaliers Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/hd.jpg" alt="">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.12999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/sh1.jpg" alt="">
+                <h4>Allen Solly Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.7999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/shl1.jpg" alt="">
+                <h4>H&M</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    <!---------------------------features ends------------->
+
+
+
+
+
+    <!---------------------------footer starts------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for Android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/d3.png" alt="">
+                        <img src="images/d4.png" alt="">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="https://goo.gl/maps/Web7Zu29kztBZXYD8">
+                        <img src="images/logo.jpg" alt="">
+                    </a>
+                    <p>Our Purpose is to give the best quality product to the customer
+                        and bring them back and make them happy
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li> <a href="#">Coupons</a> </li>
+                        <li> <a href="#">Blog Posts</a></li>
+                        <li> <a href="#">Return Policies</a></li>
+                        <li> <a href="#" Join Affiliate></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>follow Us</h3>
+                    <ul>
+                        <li> <a href="#">Facebook</a> </li>
+                        <li> <a href="#">Instagram</a> </li>
+                        <li> <a href="#">Twitter</a> </li>
+                        <li> <a href="#">Youtube</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2020- www.avenida.com</p>
+        </div>
+    </div>
+    <!---------------------------footer ends------------->
+
+
+
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
